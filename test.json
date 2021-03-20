@@ -1,33 +1,33 @@
 {
-    "vince": [{
-            "device_name": "Redmi 5 Plus",
+    "XOOTD": [{
+            "device_name": "Asus Zenfone Max Pro M1	",
             "variant": "vanilla",
-            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
-            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
+            "filename": "LegionOS-v3.6-X00TD-20210212-1430-OFFICIAL-VANILLA.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/X00TD\/LegionOS-v3.6-X00TD-20210212-1430-OFFICIAL-VANILLA.zip\/download",
             "timestamp": "1599744914",
             "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
             "size": 826747370,
-            "version": "10.0",
+            "version": "3.6",
             "romtype": "OFFICIAL",
-            "changelog": "https://telegra.ph/Changelog-02-16-2",
-            "maintainer_name": "Harsh"
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/X00TD/changelogs_vanilla.txt",
+            "maintainer_name": "Paras Dhiman	"
         },
         {
-            "device_name": "Redmi 5 Plus",
+            "device_name": "Asus Zenfone Max Pro M1	",
             "variant": "gapps",
-            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
-            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
-            "timestamp": "1599744914",
-            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
-            "size": 826747370,
-            "version": "10.0",
+            "filename": "-",
+            "url": "-",
+            "timestamp": "-",
+            "md5sum": "-",
+            "size": -,
+            "version": "-",
             "romtype": "OFFICIAL",
-            "changelog": "https://telegra.ph/Changelog-02-16-2",
-            "maintainer_name": "Harsh"
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/X00TD/changelogs_gapps.txt",
+            "maintainer_name": "Paras Dhiman	"
         }
     ],
-    "whyred": [{
-            "device_name": "Redmi Note 5",
+    "jasmine_sprout": [{
+            "device_name": "Xiaomi Mi A2",
             "variant": "vanilla",
             "filename": "LegionOS-v2.11.5-whyred-20200910-OFFICIAL-Vanilla.zip",
             "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
@@ -36,11 +36,11 @@
             "size": 826747370,
             "version": "10.0",
             "romtype": "OFFICIAL",
-            "changelog": "https://telegra.ph/Changelog-02-16-2",
-            "maintainer_name": "Nitin"
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/jasmine_sprout/changelogs_vanilla.txt",
+            "maintainer_name": "Immanuel Raj	"
         },
         {
-            "device_name": "Redmi Note 5",
+            "device_name": "Xiaomi Mi A2",
             "variant": "gapps",
             "filename": "LegionOS-v2.11.5-whyred-20200910-OFFICIAL-Gapps.zip",
             "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
@@ -49,8 +49,143 @@
             "size": 826747370,
             "version": "10.0",
             "romtype": "OFFICIAL",
-            "changelog": "https://telegra.ph/Changelog-02-16-2",
-            "maintainer_name": "Nitin"
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/jasmine_sprout/changelogs_gapps.txt",
+            "maintainer_name": "Immanuel Raj	"
+        }
+    ],
+    "lmi": [{
+            "device_name": "Poco F2 Pro",
+            "variant": "vanilla",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/lmi/chagelog_vanilla.txt",
+            "maintainer_name": "AbdullahPS	"
+        },
+        {
+            "device_name": "Poco F2 Pro",
+            "variant": "gapps",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/lmi/changelogs_gapps.txt",
+            "maintainer_name": "AbdullahPS	"
+        }
+    ],
+    "miatoll": [{
+            "device_name": "Poco M2 Pro",
+            "variant": "vanilla",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/miatoll/changelogs_vanilla.txt",
+            "maintainer_name": "Harsh"
+        },
+        {
+            "device_name": "Poco M2 Pro",
+            "variant": "gapps",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/miatoll/changelogs_gapps.txt",
+            "maintainer_name": "Dr. Raj Kale	"
+        }
+    ],
+    "ocean": [{
+            "device_name": "Moto G7 Power",
+            "variant": "vanilla",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/ocean/changelogs_vanilla.txt",
+            "maintainer_name": "Dr. Raj Kale	"
+        },
+        {
+            "device_name": "Moto G7 Power",
+            "variant": "gapps",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/ocean/changelogs_gapps.txt",
+            "maintainer_name": "Harsh"
+        }
+    ],
+    "saders": [{
+            "device_name": "Moto G (5S) Plus",
+            "variant": "vanilla",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/sanders/changelogs_vanilla.txt",
+            "maintainer_name": "Lucas Ponez	"
+        },
+        {
+            "device_name": "Moto G (5S) Plus",
+            "variant": "gapps",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/sanders/changelogs_gapps.txt",
+            "maintainer_name": "Lucas Ponez	"
+        }
+    ],
+    "x2": [{
+            "device_name": "LeEco LeMax2",
+            "variant": "vanilla",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/x2/changelogs_vanilla.txt",
+            "maintainer_name": "CrisBal	"
+        },
+        {
+            "device_name": "LeEco LeMax2",
+            "variant": "gapps",
+            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
+            "timestamp": "1599744914",
+            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
+            "size": 826747370,
+            "version": "10.0",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/x2/changelogs_gapps.txt",
+            "maintainer_name": "CrisBal	"
         }
     ]
 }
