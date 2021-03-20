@@ -1,6 +1,6 @@
 {
     "XOOTD": [{
-            "device_name": "Asus Zenfone Max Pro M1	",
+            "device_name": "Asus Zenfone Max Pro M1",
             "variant": "vanilla",
             "filename": "LegionOS-v3.6-X00TD-20210212-1430-OFFICIAL-VANILLA.zip",
             "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/X00TD\/LegionOS-v3.6-X00TD-20210212-1430-OFFICIAL-VANILLA.zip\/download",
@@ -10,7 +10,20 @@
             "version": "3.6",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/X00TD/changelogs_vanilla.txt",
-            "maintainer_name": "Paras Dhiman	"
+            "maintainer_name": "Paras Dhiman"
+        },
+        {
+            "device_name": "Asus Zenfone Max Pro M1",
+            "variant": "gapps",
+            "filename": "-",
+            "url": "-",
+            "timestamp": "-",
+            "md5sum": "-",
+            "size": -,
+            "version": "-",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/X00TD/changelogs_gapps.txt",
+            "maintainer_name": "Paras Dhiman"
         }
     ],
     "jasmine_sprout": [{
@@ -24,7 +37,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/jasmine_sprout/changelogs_vanilla.txt",
-            "maintainer_name": "Immanuel Raj	"
+            "maintainer_name": "Immanuel Raj"
         },
         {
             "device_name": "Xiaomi Mi A2",
@@ -37,7 +50,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/jasmine_sprout/changelogs_gapps.txt",
-            "maintainer_name": "Immanuel Raj	"
+            "maintainer_name": "Immanuel Raj"
         }
     ],
     "lmi": [{
@@ -51,7 +64,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/lmi/chagelog_vanilla.txt",
-            "maintainer_name": "AbdullahPS	"
+            "maintainer_name": "AbdullahPS"
         },
         {
             "device_name": "Poco F2 Pro",
@@ -64,7 +77,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/lmi/changelogs_gapps.txt",
-            "maintainer_name": "AbdullahPS	"
+            "maintainer_name": "AbdullahPS"
         }
     ],
     "miatoll": [{
@@ -91,7 +104,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/miatoll/changelogs_gapps.txt",
-            "maintainer_name": "Dr. Raj Kale	"
+            "maintainer_name": "Dr. Raj Kale"
         }
     ],
     "ocean": [{
@@ -105,7 +118,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/ocean/changelogs_vanilla.txt",
-            "maintainer_name": "Dr. Raj Kale	"
+            "maintainer_name": "Dr. Raj Kale"
         },
         {
             "device_name": "Moto G7 Power",
@@ -132,7 +145,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/sanders/changelogs_vanilla.txt",
-            "maintainer_name": "Lucas Ponez	"
+            "maintainer_name": "Lucas Ponez"
         },
         {
             "device_name": "Moto G (5S) Plus",
@@ -145,7 +158,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/sanders/changelogs_gapps.txt",
-            "maintainer_name": "Lucas Ponez	"
+            "maintainer_name": "Lucas Ponez"
         }
     ],
     "x2": [{
@@ -159,7 +172,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/x2/changelogs_vanilla.txt",
-            "maintainer_name": "CrisBal	"
+            "maintainer_name": "CrisBal"
         },
         {
             "device_name": "LeEco LeMax2",
@@ -172,7 +185,7 @@
             "version": "10.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/x2/changelogs_gapps.txt",
-            "maintainer_name": "CrisBal	"
+            "maintainer_name": "CrisBal"
         }
     ]
 }
