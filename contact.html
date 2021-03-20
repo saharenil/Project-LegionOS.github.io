@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/nav-logo.svg" type="image/x-icon" />
+    <title>Legion OS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/style-test.css" />
+  </head>
+
+  <body>
+    <div id="turn">
+      <h1>Please rotate your device to portrait mode</h1>
+    </div>
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container is-widescreen">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img class="navbar-logo" src="img/nav-logo.svg" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasic"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasic" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#" class="navbar-item nav-links">Blog</a>
+            <a href="contact.html" class="navbar-item nav-links">Contact</a>
+            <a href="download.html" class="navbar-item nav-links">Download</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main style="margin-top: 7rem !important" class="container">
+      <div class="contact-section">
+        <div class="columns is-desktop is-centered">
+          <div class="column is-8">
+            <h1 class="title has-text-white">Contact Us</h1>
+            <hr class="contact-hr" />
+            <h4 class="subtitle has-text-white">
+              Reach out to us by filling the form.
+            </h4>
+            <div class="card contact-card">
+              <form name="contact">
+                <div class="contact-form">
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input id="name" class="input" type="text" />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input id="email" class="input" type="email" />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <div class="select">
+                        <select id="subject">
+                          <option value="1">General Query</option>
+                          <option value="2">Apply for Maintainer</option>
+                          <option value="3">Apply for Designer</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea id="msg" class="textarea"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="control">
+                      <button
+                        type="submit"
+                        onclick="httpGet()"
+                        class="button submit-button"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <br /><br />
+
+        <div class="columns is-desktop is-centered">
+          <div class="column is-8">
+            <div>
+              <h1 class="title has-text-white">Social handles</h1>
+              <hr class="contact-hr" />
+              <h4 class="subtitle has-text-white">
+                Follow and reach out to us here.
+              </h4>
+
+              <div class="has-text-centered">
+                <button
+                  onclick="location.href='https://twitter.com/ProjectLegionOS';"
+                  class="button is-medium contact-button twitter"
+                >
+                  <span class="icon btn-icon">
+                    <img src="img/twitter.svg" alt="" />
+                  </span>
+                  <span>Twitter</span>
+                </button>
+
+                <button
+                  onclick="location.href='https://t.me/legionUpdates';"
+                  class="button is-medium contact-button telegram"
+                >
+                  <span class="icon btn-icon">
+                    <img src="img/telegram.svg" alt="" />
+                  </span>
+                  <span>Telegram</span>
+                </button>
+
+                <button
+                  onclick="location.href='https://github.com/legionos-devices';"
+                  class="button is-medium contact-button github"
+                >
+                  <span class="icon btn-icon">
+                    <img src="img/github.svg" alt="" />
+                  </span>
+                  <span>Github</span>
+                </button>
+
+                <button
+                  onclick="location.href='mailto:projectlegionos@gmail.com';"
+                  class="button is-medium contact-button gmail"
+                >
+                  <span class="icon btn-icon">
+                    <img src="img/gmail.svg" alt="" />
+                  </span>
+                  <span>Mail</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <br /><br /><br />
+
+    <footer class="footer">
+      <div class="content has-text-centered has-text-white">
+        <p>
+          Website &lt;/&gt; by
+          <a class="footer-link" href="https://harshv23.cf "
+            ><b>Harsh V23</b></a
+          >
+          and
+          <a class="footer-link" href="https://t.me/itsnitinr "
+            ><b>Nitin R</b></a
+          >
+          <br />
+          Copyright &copy; 2021 LegionOS.
+        </p>
+        <div class="footer-buttons-list">
+          <button
+            onclick="location.href='https://github.com/legionos-devices';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/github.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='https://twitter.com/ProjectLegionOS';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/twitter.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='https://t.me/legionUpdates';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/telegram.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='mailto:projectlegionos@gmail.com';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/gmail.svg " />
+            </span>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/index.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(
+        document.querySelectorAll('.navbar-burger'),
+        0
+      );
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      }
+    });
+  </script>
+  <script>
+    function httpGet() {
+      var name = document.contact.name.value;
+      var email = document.contact.email.value;
+      var subject = document.getElementById('subject').options[
+        document.getElementById('subject').selectedIndex
+      ].text;
+      var message = document.contact.msg.value;
+      var mailformat = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      if (name == '') {
+        return alert('Enter your name');
+      }
+      if (email == '') {
+        return alert('Enter your email');
+      }
+      if (!mailformat.test(email)) {
+        return alert('Enter email in proper format');
+      }
+      if (message == '') {
+        return alert('Enter Message');
+      }
+
+      var xmlHttp = new XMLHttpRequest();
+      xmlHttp.open(
+        'GET',
+        'https://api.telegram.org/bot1640606208:AAGPf2VR-J9FpZ4eGL0XkCTrsU-n1QQCCnQ/sendMessage?chat_id=-1001411835098&text=' +
+          'Name: ' +
+          name +
+          '%0D%0A' +
+          'Email: ' +
+          email +
+          '%0D%0A' +
+          'Subject: ' +
+          subject +
+          '%0D%0A' +
+          'Message: ' +
+          message +
+          '%0D%0A',
+        false
+      );
+      xmlHttp.send(null);
+      $("input[id='name']").val('');
+      $("input[id='email']").val('');
+      $("textarea[id='msg']").val('');
+      alert('Your message has been received, expect a reply soon!');
+      return xmlHttp.responseText;
+    }
+  </script>
+</html>

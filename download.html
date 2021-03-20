@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/nav-logo.svg" type="image/x-icon" />
+    <title>Legion OS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style-test.css" />
+  </head>
+
+  <body>
+    <div id="turn">
+      <h1>Please rotate your device to portrait mode</h1>
+    </div>
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container is-widescreen">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img class="navbar-logo" src="img/nav-logo.svg" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasic"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasic" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#" class="navbar-item nav-links">Blog</a>
+            <a href="contact.html" class="navbar-item nav-links">Contact</a>
+            <a href="download.html" class="navbar-item nav-links">Download</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div style="margin-top: 5rem" class="is-flex is-flex-wrap-wrap">
+      <div class="devices"></div>
+      <div class="download">
+        <div>
+          <img
+            class="download-img"
+            src="./img/mobile.svg"
+            alt="No device selected"
+          />
+          <h1>Please select your device from our devices list</h1>
+        </div>
+      </div>
+      <div class="device-download" style="display: none">
+        <div class="device-info">
+          <img class="download-img" src="./img/mobile.svg" alt="Device name" />
+          <div>
+            <h1 class="device-name"></h1>
+            <h4 class="device-codename"></h4>
+          </div>
+        </div>
+        <div class="builds"></div>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Legion OS</p>
+          <button
+            class="delete"
+            onclick="closeModal()"
+            aria-label="close"
+          ></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="device-info">
+            <img
+              class="download-img"
+              src="./img/mobile.svg"
+              alt="Device name"
+            />
+            <div>
+              <h1 class="device-name"></h1>
+              <h4 class="device-codename"></h4>
+            </div>
+          </div>
+          <div class="builds"></div>
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered has-text-white">
+        <p>
+          Website &lt;/&gt; by
+          <a class="footer-link" href="https://harshv23.cf "
+            ><b>Harsh V23</b></a
+          >
+          and
+          <a class="footer-link" href="https://t.me/itsnitinr "
+            ><b>Nitin R</b></a
+          >
+          <br />
+          Copyright &copy; 2021 LegionOS.
+        </p>
+        <div class="footer-buttons-list">
+          <button
+            onclick="location.href='https://github.com/legionos-devices';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/github.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='https://twitter.com/ProjectLegionOS';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/twitter.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='https://t.me/legionUpdates';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/telegram.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='mailto:projectlegionos@gmail.com';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/gmail.svg " />
+            </span>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/download.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(
+        document.querySelectorAll('.navbar-burger'),
+        0
+      );
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      }
+    });
+    const modal = document.querySelector('.modal');
+    const closeModal = () => {
+      modal.style = 'display: none !important;';
+    };
+  </script>
+</html>
