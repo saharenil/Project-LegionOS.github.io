@@ -11,19 +11,6 @@
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/X00TD/changelogs_vanilla.txt",
             "maintainer_name": "Paras Dhiman	"
-        },
-        {
-            "device_name": "Asus Zenfone Max Pro M1	",
-            "variant": "gapps",
-            "filename": "-",
-            "url": "-",
-            "timestamp": "-",
-            "md5sum": "-",
-            "size": -,
-            "version": "-",
-            "romtype": "OFFICIAL",
-            "changelog": "https://github.com/legionos-devices/OTA/blob/11/X00TD/changelogs_gapps.txt",
-            "maintainer_name": "Paras Dhiman	"
         }
     ],
     "jasmine_sprout": [{
