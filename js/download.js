@@ -92,7 +92,7 @@ const generateDevice = (phone, codename) => {
 };
 
 $(document).ready(async function () {
-  const res = await fetch('https://harshv23.cf/LegionOS-Website/test.json');
+  const res = await fetch('https://github.com/Project-LegionOS/Project-LegionOS.github.io/blob/master/test.json');
   json = await res.json();
   Object.keys(json).forEach((device) =>
     generateDevice(json[device][0].device_name, device)
