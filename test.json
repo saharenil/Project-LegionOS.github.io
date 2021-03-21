@@ -90,7 +90,7 @@
             "size": 1320826814,
             "version": "11.0",
             "romtype": "OFFICIAL",
-            "changelog": "https://github.com/legionos-devices/OTA/blob/11/miatoll/changelogs_vanilla.txt",
+            "changelog": "https://raw.githubusercontent.com/legionos-devices/OTA/11/miatoll/changelogs_vanilla.txt",
             "maintainer_name": "Dr. Raj Kale"
         },
         {
@@ -103,7 +103,7 @@
             "size": 1571681083,
             "version": "11.0",
             "romtype": "OFFICIAL",
-            "changelog": "https://github.com/legionos-devices/OTA/blob/11/miatoll/changelogs_gapps.txt",
+            "changelog": "https://raw.githubusercontent.com/legionos-devices/OTA/11/miatoll/changelogs_gapps.txt",
             "maintainer_name": "Dr. Raj Kale"
         }
     ],
