@@ -451,6 +451,10 @@ body {
   text-align: center;
 }
 
+body:nth-child(2) {
+  background: #1d1d1d !important;
+}
+
 @media (min-width: 1000px) {
   .hero-content {
     padding: 10rem 8rem;

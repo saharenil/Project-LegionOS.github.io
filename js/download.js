@@ -22,8 +22,8 @@ const generateBuildCards = (
   buildCard.innerHTML = `
     <h1 class="variant">${variant}</h1>
     <div class="info">
-    <div class="mt-4 mb-2"><i class="material-icons mr-3 has-text-danger">schedule</i><h1>${Date(
-      timestamp
+    <div class="mt-4 mb-2"><i class="material-icons mr-3 has-text-danger">schedule</i><h1>${new Date(
+      timestamp * 1000
     )}</h1></div>
       <div class="mb-2"><i class="material-icons mr-3 has-text-danger">fingerprint</i><h1>${(
         size / Math.pow(1024, 2)
@@ -92,7 +92,9 @@ const generateDevice = (phone, codename) => {
 };
 
 $(document).ready(async function () {
-  const res = await fetch('https://raw.githubusercontent.com/Project-LegionOS/Project-LegionOS.github.io/master/test.json');
+  const res = await fetch(
+    'https://raw.githubusercontent.com/Project-LegionOS/Project-LegionOS.github.io/master/test.json'
+  );
   json = await res.json();
   Object.keys(json).forEach((device) =>
     generateDevice(json[device][0].device_name, device)
