@@ -1,4 +1,18 @@
 {
+    "LegionOS Gapps": [{
+            "device_name": "LegionOS Gapps",
+            "variant": "vanilla",
+            "filename": " LegionGApps-R-11.0-Vanilla-arm64-20210406.zip",
+            "url": "https://sourceforge.net/projects/legionrom/files/Gapps/LegionGApps-R-11.0-Vanilla-arm64-20210406.zip/download",
+            "timestamp": " ",
+            "md5sum": "9f1acd1ce57609a1aee0cff07fbb5145",
+            "size": 206569472,
+            "version": "11.0(R)",
+            "romtype": "OFFICIAL",
+            "changelog": " ",
+            "maintainer_name": "CrisBalGreece"
+        }
+    ],
     "XOOTD": [{
             "device_name": "Asus Zenfone Max Pro M1",
             "variant": "vanilla",
