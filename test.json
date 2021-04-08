@@ -202,30 +202,17 @@
             "maintainer_name": "VitorSSSouza"
         }
     ],
-    "saders": [{
+    "sanders": [{
             "device_name": "Moto G (5S) Plus",
             "variant": "vanilla",
-            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip",
-            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-Vanilla.zip\/download",
-            "timestamp": "1599744914",
-            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
-            "size": 826747370,
-            "version": "10.0",
+            "filename": "LegionOS-v3.8-sanders-20210408-OFFICIAL-VANILLA.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/sanders\/LegionOS-v3.8-sanders-20210408-OFFICIAL-VANILLA.zip\/download",
+            "timestamp": "1617889654",
+            "md5sum": "690d09fedff2784026bf20f6ff1efa00",
+            "size": 851171599,
+            "version": "11.0",
             "romtype": "OFFICIAL",
             "changelog": "https://github.com/legionos-devices/OTA/blob/11/sanders/changelogs_vanilla.txt",
-            "maintainer_name": "Lucas Ponez"
-        },
-        {
-            "device_name": "Moto G (5S) Plus",
-            "variant": "gapps",
-            "filename": "LegionOS-v2.11.5-vince-20200910-OFFICIAL-Gapps.zip",
-            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/vince\/LegionOS-v2.11.5-vince-20200910-OFFICIAL-G.zip\/download",
-            "timestamp": "1599744914",
-            "md5sum": "cca8ace294d0ff1d4511a7febc94c578",
-            "size": 826747370,
-            "version": "10.0",
-            "romtype": "OFFICIAL",
-            "changelog": "https://github.com/legionos-devices/OTA/blob/11/sanders/changelogs_gapps.txt",
             "maintainer_name": "Lucas Ponez"
         }
     ],
