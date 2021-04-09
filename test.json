@@ -1,4 +1,19 @@
 {
+    "whyred"; [{
+            "device_name": "Redmi Note 5 Pro Whyred",
+            "variant": "VANILLA",
+            "filename": "LegionOS-v3.8-whyred-20210409-OFFICIAL-VANILLA.zip",
+            "url": "https:\/\/sourceforge.net\/projects\/legionrom\/files\/whyred\/LegionOS-v3.8-whyred-20210409-OFFICIAL-VANILLA.zip\/download",
+            "timestamp": "1617956310",
+            "md5sum": "82cb01bfdf85d7c0a636d694b0fa19f9",
+            "size": "895830980",
+            "version": "3.8",
+            "romtype": "OFFICIAL",
+            "changelog": "https://github.com/legionos-devices/OTA/blob/11/whyred/changelog_vanilla.txt",
+            "maintainer_name": "Baba Sahare (Nihal)"
+        }
+        ],
+
     "XOOTD": [{
             "device_name": "Asus Zenfone Max Pro M1",
             "variant": "vanilla",
